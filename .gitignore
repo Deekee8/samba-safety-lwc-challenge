@@ -69,3 +69,4 @@ config/
 .prettierrc
 jest.config.js
 force-app/main/default/aura/
+docs/
