@@ -4,18 +4,29 @@ import Button_DefaultLabel from '@salesforce/label/c.Button_DefaultLabel';
 import Component_Title from '@salesforce/label/c.Component_Title';
 
 /**
+ * This component displays a button that opens a modal. 
+ * The button label updates based on user input from the modal.
+ * 
  * @class BaseComponent
  * @extends LightningElement
- * @description This component displays a button that opens a modal. 
- *              The button label updates based on user input from the modal.
  * @author DeQuan Mitchell
  */
 export default class BaseComponent extends LightningElement {
 
-    /** @type {string} Label for the button (updates dynamically) */
+    /** 
+     * Label for the button (updates dynamically)
+     * 
+     * @type {string}
+     * @memberof BaseComponent
+     * */
     @track buttonLabel = Button_DefaultLabel;
 
-    /** @type {Object} Labels for component UI text */
+    /** 
+     * Labels for component UI text
+     * 
+     * @type {Object}
+     * @memberof BaseComponent
+    */
     labels = {
         componentTitle: Component_Title
     };
@@ -25,8 +36,8 @@ export default class BaseComponent extends LightningElement {
      * If a result is returned from the modal, it updates the button label.
      * 
      * @async
-     * 
      * @returns {Promise<void>}
+     * @memberof BaseComponent
      */
     async handleClick() {
         try {
