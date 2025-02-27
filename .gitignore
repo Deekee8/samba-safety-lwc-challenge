@@ -63,6 +63,8 @@ force-app/main/default/lwc/modalComponent/__tests__/
 
 # Ignore node modules if applicable
 node_modules/
+
+
 manifest/
 config/
 .forceignore
