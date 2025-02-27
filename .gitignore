@@ -43,3 +43,24 @@ $RECYCLE.BIN/
 **/__pycache__/
 **/.venv/
 **/venv/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Prettier, Husky, and ESLint configs
+.prettierignore
+.prettierrc
+.husky/
+.eslintrc.json
+
+# Ignore temp project files
+tempProject/
+
+# Ignore scripts and test files
+scripts/
+force-app/main/default/lwc/baseComponent/__tests__/
+force-app/main/default/lwc/modalComponent/__tests__/
+
+# Ignore node modules if applicable
+node_modules/
+manifest/
