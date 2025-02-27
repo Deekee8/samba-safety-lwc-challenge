@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Button_PleaseClick</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Button_PleaseClick</shortDescription>
+        <value>Please Click</value>
+    </labels>
+    <labels>
+        <fullName>Card_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Card_Title</shortDescription>
+        <value>LWC Button Modal Example</value>
+    </labels>
+    <labels>
+        <fullName>Modal_Cancel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Modal_Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Modal_EnterText</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Modal_EnterText</shortDescription>
+        <value>Enter Text</value>
+    </labels>
+    <labels>
+        <fullName>Modal_Save</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Modal_Save</shortDescription>
+        <value>Save</value>
+    </labels>
+</CustomLabels>

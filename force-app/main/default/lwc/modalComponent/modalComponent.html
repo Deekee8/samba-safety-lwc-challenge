@@ -1,0 +1,22 @@
+<template>
+    <lightning-modal-header label={labels.headerTitle}></lightning-modal-header>
+
+    <lightning-modal-body>
+        <!-- Input field for user text -->
+        <lightning-input 
+            label={labels.inputLabel} 
+            value={inputText} 
+            data-id="textInput"
+            onchange={handleInputChange}
+            onkeydown={handleKeyDown}>
+        </lightning-input>
+    </lightning-modal-body>
+
+    <lightning-modal-footer>
+        <!-- Cancel button -->
+        <lightning-button label={labels.cancel} onclick={handleCancel}></lightning-button>
+
+        <!-- Save button -->
+        <lightning-button label={labels.save} variant="brand" onclick={handleSave}></lightning-button>
+    </lightning-modal-footer>
+</template>

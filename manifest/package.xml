@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <!-- Add the specific labels you created today -->
+        <members>Card_Title</members>
+        <members>Button_PleaseClick</members>
+        <members>Modal_EnterText</members>
+        <members>Modal_Save</members>
+        <members>Modal_Cancel</members>
+        <name>CustomLabel</name>
+    </types>
+    <version>63.0</version> <!-- Use your org's API version -->
+</Package>
