@@ -34,7 +34,7 @@ This project **uses Salesforce Custom Labels** for all UI text, making localizat
 This project includes **JSDoc-generated documentation** for better maintainability.
 
 ### **View Documentation (GitHub Pages)**
-🔗 **[Project Documentation](https://your-github-username.github.io/sambasafety-lwc-challenge/docs/)**
+🔗 **[Project Documentation](https://deekee8.github.io/samba-safety-lwc-challenge/)**
 
 ---
 
