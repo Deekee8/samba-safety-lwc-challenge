@@ -1,0 +1,14 @@
+
+# Ignore everything except JSDoc files
+*
+!.gitignore
+!index.html
+!global.html
+!fonts/
+!scripts/
+!styles/
+!BaseComponent.html
+!ModalComponent.html
+!baseComponent_baseComponent.js.html
+!modalComponent_modalComponent.js.html
+
